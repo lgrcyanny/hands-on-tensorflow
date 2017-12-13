@@ -1,0 +1,5 @@
+logs/
+test/
+.DS_Store
+Untitled.*
+.ipynb_checkpoints/
