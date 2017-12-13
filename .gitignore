@@ -3,3 +3,7 @@ test/
 .DS_Store
 Untitled.*
 .ipynb_checkpoints/
+<<<<<<< HEAD
+=======
+Jupyter.log
+>>>>>>> add tensorflow tutorials
