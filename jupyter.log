@@ -1,29 +1,14 @@
-[W 18:06:29.101 NotebookApp] Error loading server extension nbdime
-    Traceback (most recent call last):
-      File "/usr/local/lib/python2.7/site-packages/notebook/notebookapp.py", line 1343, in init_server_extensions
-        mod = importlib.import_module(modulename)
-      File "/usr/local/Cellar/python/2.7.12_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py", line 37, in import_module
-        __import__(name)
-    ImportError: No module named nbdime
-[I 18:06:29.108 NotebookApp] Serving notebooks from local directory: /Users/lgrcyanny/Codecookies/machine-learning-workspace/tensorflow-wp/hands-on-tensorflow/notebooks
-[I 18:06:29.109 NotebookApp] 0 active kernels
-[I 18:06:29.109 NotebookApp] The Jupyter Notebook is running at:
-[I 18:06:29.109 NotebookApp] http://localhost:8888/?token=5abe86f7f6a1548c37acc435ec72d9dea5949131a5e5cdbe
-[I 18:06:29.109 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 18:06:29.109 NotebookApp] 
+[I 08:07:59.584 NotebookApp] JupyterLab alpha preview extension loaded from /Users/lgrcyanny/anaconda2/lib/python2.7/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 08:07:59.586 NotebookApp] Running the core application with no additional extensions or settings
+[I 08:07:59.765 NotebookApp] Serving notebooks from local directory: /Users/lgrcyanny/Codecookies/machine-learning-workspace/tensorflow-wp/hands-on-tensorflow/notebooks
+[I 08:07:59.765 NotebookApp] 0 active kernels 
+[I 08:07:59.765 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=a7758e7feaf9d0d56861fccd9318ad3c06bd51ac2792638b
+[I 08:07:59.765 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:07:59.766 NotebookApp] 
     
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
-        http://localhost:8888/?token=5abe86f7f6a1548c37acc435ec72d9dea5949131a5e5cdbe
-[I 18:06:29.476 NotebookApp] Accepting one-time-token-authenticated connection from ::1
-[W 18:06:30.299 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213180628 (::1) 13.09ms referer=http://localhost:8888/tree
-[W 18:06:45.865 NotebookApp] 400 GET /api/contents/kmeans_algorithm.ipynb?type=notebook&_=1513159605631 (::1): Unreadable Notebook: /Users/lgrcyanny/Codecookies/machine-learning-workspace/tensorflow-wp/hands-on-tensorflow/notebooks/kmeans_algorithm.ipynb NotJSONError('Notebook does not appear to be JSON: u\'{\\n "cells": [\\n  {\\n   "cell_type": "...',)
-[W 18:06:45.866 NotebookApp] Unreadable Notebook: /Users/lgrcyanny/Codecookies/machine-learning-workspace/tensorflow-wp/hands-on-tensorflow/notebooks/kmeans_algorithm.ipynb NotJSONError('Notebook does not appear to be JSON: u\'{\\n "cells": [\\n  {\\n   "cell_type": "...',)
-[W 18:06:45.866 NotebookApp] 400 GET /api/contents/kmeans_algorithm.ipynb?type=notebook&_=1513159605631 (::1) 4.79ms referer=http://localhost:8888/notebooks/kmeans_algorithm.ipynb
-[W 18:06:45.881 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20171213180628 (::1) 2.41ms referer=http://localhost:8888/notebooks/kmeans_algorithm.ipynb
-[W 18:06:45.951 NotebookApp] 404 POST /nbdime/api/isgit (::1) 2.99ms referer=http://localhost:8888/notebooks/kmeans_algorithm.ipynb
-[W 18:06:46.021 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171213180628 (::1) 5.33ms referer=http://localhost:8888/notebooks/kmeans_algorithm.ipynb
-[I 18:07:04.015 NotebookApp] Kernel started: adbab8fc-fb11-495a-bbf0-bde1c01eae07
-[I 18:07:04.916 NotebookApp] Adapting to protocol v5.1 for kernel adbab8fc-fb11-495a-bbf0-bde1c01eae07
-2017-12-13 18:07:16.922894: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.2 AVX AVX2 FMA
-[I 18:08:51.539 NotebookApp] Saving file at /kmeans_algorithm.ipynb
+        http://localhost:8888/?token=a7758e7feaf9d0d56861fccd9318ad3c06bd51ac2792638b
+[I 08:08:00.029 NotebookApp] Accepting one-time-token-authenticated connection from ::1
