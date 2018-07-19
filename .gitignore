@@ -5,3 +5,4 @@ Untitled.*
 .ipynb_checkpoints/
 jupyter.log
 checkpoint
+*.log
